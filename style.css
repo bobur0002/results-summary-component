@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #fff;
+    margin: 200px auto 50px;
+}
+
+.col1 {
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    /* box-shadow: 0 5px 25px -10px #0808085d; */
+}
+
+.col__head {
+    margin: 20px auto;
+    color: #CDBFFF;
+}
+
+.col__score {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    color: #CDBFFF;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+
+.col__span {
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.col__comment {
+    margin: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.col__footer {
+    width: 300px;
+    margin: 0 auto;
+    color: #CDBFFF;
+    margin-bottom: 20px;
+}
+
+/* Column 2 */
+
+.col2__head {
+    padding-top: 15px;
+    text-align: left;
+}
+
+.col2__btn {
+    margin: 20px auto;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.co2__outof {
+    color: #94909F;
+}
+
+.col2__space {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col2__reaction {
+    margin-top: 20px;
+    background-color: #FFACAC;
+}
+
+.col2__react {
+    color: hsl(0, 100%, 67%);
+}
+
+.col2__memory {
+    background-color: #FBFFB1;
+}
+
+.col2__mem {
+    color: hsl(39, 100%, 56%);
+}
+
+.col2__verbal {
+    background-color: #B3E5BE;
+}
+
+.col2__ver {
+    color: hsl(166, 100%, 37%);
+}
+
+.col2__visual {
+    background-color: #97DEFF;
+}
+
+.col2__vis {
+    color: hsl(234, 85%, 45%);
+}
+
+.col2__button {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    background-color: #97DEFF;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+@media (max-width:995px) {
+    .col__footer {
+        width: 220px;
+    }
+}
+
+@media (max-width:769px) {
+    .container {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:578px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container {
+        margin: 0 auto;
+    }
+
+    .col1 {
+        border-radius: 0 0 20px 20px;
+    }
+}
